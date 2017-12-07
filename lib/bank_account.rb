@@ -13,10 +13,10 @@ class BankAccount
     @balance += amount
   end
   
-  # def display_balance
-  #   "Your balance is #{@balance}."
-  # end
-  #
+  def display_balance
+    "Your balance is #{@balance}."
+  end
+  
   # def valid?
   #   @status == 'open' && @balance > 1000
   # end
