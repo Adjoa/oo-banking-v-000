@@ -19,6 +19,7 @@ class Transfer
       sender.balance -= amount
       receiver.deposit(amount)
     end
+    
     @status = 'complete'
   end
 
